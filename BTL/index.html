@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatibl" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherrio</title>
+    <meta name="title" content="weatherrio">
+    <meta name="description" content="weatherrio is a weatherapp made by codewithsadee">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/app.js" type="module"></script>
+    <script src="./assets/js/route.js" type="module"></script>
+</head>
+
+<body>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <header class="header">
+        <div class="container">
+            
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="364" height="58" alt="logo">
+            </a>
+
+            <div class="search-view" data-search-view>
+
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Search city" 
+                    autocomplete="off" class="search-field" 
+                    data-search-field>
+                    
+                    <span class="m-icon">search</span>
+
+                    <button class="icon-btn leading-icon has-state" aria-label="close search"
+                    data-search-toggler>
+                        <span class="m-icon">arrow_back</span>
+                    </button>
+                </div>
+
+                <div class="search-result" data-search-result>
+                    <ul class="view-list" data-search-list>
+
+                       <li class="view-item">
+                        <span class="m-icon">location_on</span>
+
+                        <div>
+                            <p class="item-title">London</p>
+
+                            <p class="Label-2 item-subtitle">State of London, GB</p>
+                        </div>
+                        
+                        <a href="#" class="item-link has-state" data-search-toggler=></a>
+                       </li>
+                                
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="header-actions">
+
+                <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
+                    <span class="m-icon icon">search</span>
+                </button>
+
+                <a href="#/current-location" class="btn-primary has-state" data-current-location-btn>
+                    <span class="m-icon">My_location</span>
+
+                    <span class="span">Current-location</span>
+                    
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+
+
+<main>
+    <article class="container">
+
+        <div class="content-left">
+
+
+
+
+            <section class="section current-weather" aria-label="current-weather" data-current-weather>
+                <div class="card card-lg current-weather-card">
+
+                    <h2 class="title-2 card-title">Now</h2>
+
+                    <div class="weapper">
+                        <p class="heading">25&deg;<sup>c</sup></p>
+
+                        <img src="./assets/images/weather_icons/01d.png" width="64" height="64" alt="Overcast Clounds"
+                        class="weather_icons">
+                    </div>
+
+                    <p class="body-3">Overcast Clounds</p>
+
+                    <ul class="meta-list">
+
+                        <li class="meta-item">
+                            <span class="m-icon">calendar_today</span>
+                            
+                            <p class="title-3 meta-text">Thursday 16, Feb</p>
+                        </li>
+
+                        <li class="meta-item">
+                            <span class="m-icon">location_on</span>
+
+                            <p class="title-3 meta-text">London, GB</p>
+                        </li>
+
+
+
+                    </ul>
+
+
+                </div>
+            </section>
+
+
+
+
+
+
+            <section class="section forecast" aria-labelledby="forecast-lable"data-5-day-forecast>
+                <h2 class="title-2" id="forecast-lable">5 Day Forecast</h2>
+
+                <div class="card card-lg forecast-card">
+                    <ul>
+                                                               
+                        <li class="card-item">
+
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/weather_icons/01n.png" width="36" height="36" alt="Overcast Clounds"
+                                class="weather-icons">
+
+                                <span class="span">
+                                <p class="title-2">25</p>
+                            </span>
+                        </div>
+                        
+                        <p class="Label-1">17 Feb</p>
+
+
+                        <p class="Label-1">Firday</p>
+
+                        </li>       
+
+                        <li class="card-item">
+
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/weather_icons/01n.png" width="36" height="36" alt="Overcast Clounds"
+                                class="weather-icons">
+
+                                <span class="span">
+                                <p class="title-2">25</p>
+                            </span>
+                        </div>
+                        
+                        <p class="Label-1">17 Feb</p>
+
+
+                        <p class="Label-1">Firday</p>
+
+                        </li>
+                                                                                       
+                        <li class="card-item">
+
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/weather_icons/01n.png" width="36" height="36" alt="Overcast Clounds"
+                                class="weather-icons">
+
+                                <span class="span">
+                                <p class="title-2">25</p>
+                            </span>
+                        </div>
+                        
+                        <p class="Label-1">17 Feb</p>
+
+
+                        <p class="Label-1">Firday</p>
+
+                        </li>
+                                                                                       
+                        <li class="card-item">
+
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/weather_icons/01n.png" width="36" height="36" alt="Overcast Clounds"
+                                class="weather-icons">
+
+                                <span class="span">
+                                <p class="title-2">25</p>
+                            </span>
+                        </div>
+                        
+                        <p class="Label-1">17 Feb</p>
+
+
+                        <p class="Label-1">Firday</p>
+
+                        </li>
+                                                                                       
+                        <li class="card-item">
+
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/weather_icons/01n.png" width="36" height="36" alt="Overcast Clounds"
+                                class="weather-icons">
+
+                                <span class="span">
+                                <p class="title-2">25</p>
+                            </span>
+                        </div>
+                        
+                        <p class="Label-1">17 Feb</p>
+
+
+                        <p class="Label-1">Firday</p>
+
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>                                                                                  
+        </div>
+
+    </article>
+</main>
+
+</body>
+
+</html>
